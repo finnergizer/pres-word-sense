@@ -1,7 +1,14 @@
 class: center, middle
 #Information Retrieval Based on Word Sense
+##[Paper](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=C25DC884B43E47B0EE70C380AB7DB550?doi=10.1.1.33.6617&rep=rep1&type=pdf) by Hinrich Schütze & Jan O. Pedersen
 
+###Presented by 
+###Shaughn Finnerty & Neil Warnock
+
+[shaughn.net/pres-word-sense](http://shaughn.net/pres-word-sense)
 ---
+
+background-color: transparent;
 
 #Roadmap
 - Word sense and it's role in ambiguity
@@ -27,8 +34,9 @@ class: center, middle
 	- graded sense
 		 - words sharing the same written form and general meaning but having different meaning depending on context
 		- "line space" vs. "office space" vs. "exhibition space"
-	
-	
+
+
+
 ---
 
 class: center, middle
@@ -36,8 +44,6 @@ class: center, middle
 ![Bass Fishing Area](images/bass-fishing-area.jpg)
 
 http://arnoldzwicky.org
-
-
 
 ---
 
@@ -113,6 +119,23 @@ http://arnoldzwicky.org
 
 ---
 
+#Existing Approaches - WordNet Thesaurus
+
+- Start with the Wordnet online thesaurus
+
+- Create a mapping which maps words into hoods (classes of words)
+
+- If words from a hood appear with an ambiguous word, the ambiguous word has the sense that matches that hood.
+
+##Problems: 
+- What if the neighbours are not in the same hood as the ambiguous word?
+
+- WordNet coverage is chosen to be extremely general
+
+- Not fine-tuned enough for domain-specific disambiguation
+
+
+---
 #Existing Approaches - Common Problems
 
 - Lots of resources are needed to create hand constructed disambiguation rules and hand labeled training sets
@@ -379,11 +402,11 @@ class: center, middle
 ##Shoot
 ![Shoot](images/shoot.png)
 
----
+<!-- ---
 
 #Misc and Notes for Presentation Improvent
-Semantic similarity or semantic relatedness is a metric defined over a set of documents or terms, where the idea of distance between them is based on the likeness of their meaning or semantic content as opposed to similarity which can be estimated regarding their syntactical representation (e.g. their string format). 
+Semantic similarity or semantic relatedness is a metric defined over a set of documents or terms, where the idea of distance between them is based on the likeness of their meaning or semantic content as opposed to similarity which can be estimated regarding their syntactical representation (e.g. their string format).
 
 Main problem: lack of coverage; specific corpus have highly specialized terms that often are not covered in general thesaurus's like wordnet
 
-**Might want to add additional tests that experimented with the two assumptions (i.e. a word having more than one sense)**
+**Might want to add additional tests that experimented with the two assumptions (i.e. a word having more than one sense)** -->
