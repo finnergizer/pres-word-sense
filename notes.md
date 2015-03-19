@@ -6,6 +6,16 @@ class: center, middle
 ###Shaughn Finnerty & Neil Warnock
 
 [shaughn.net/pres-word-sense](http://shaughn.net/pres-word-sense)
+
+---
+
+class: center, middle
+
+![Bass Fishing Area](images/bass-fishing-area.jpg)
+
+http://arnoldzwicky.org
+
+
 ---
 
 background-color: transparent;
@@ -36,14 +46,6 @@ background-color: transparent;
 		- "line space" vs. "office space" vs. "exhibition space"
 
 
-
----
-
-class: center, middle
-
-![Bass Fishing Area](images/bass-fishing-area.jpg)
-
-http://arnoldzwicky.org
 
 ---
 
@@ -274,7 +276,7 @@ The context vector only characterizes the local topic of an individual word occu
 
 - To determine the senses of a word, context vectors are created for every occurrence of that word
 
-- Clusting algorithms are used to group the context vectors into regions
+- Clustering algorithms are used to group the context vectors into regions
 	- After clustering, each distinct region should correspond to one sense of the word
 	
 - With these clusters, a word to be disambiguated can be assigned a sense based on the centroid to which it's context vector is closest
