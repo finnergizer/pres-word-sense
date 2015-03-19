@@ -192,7 +192,7 @@ background-color: transparent;
 
 # Novel Approach - Thesaurus Construction
 
-- Create a symettric term-by-term matrix `\(C\)` such that the element `\(c_{ij}\)` records the number of times that words `\(i\)` and `\(j\)` co-occur in a given symettric window of size `\(k\)`
+- Create a symmetric term-by-term matrix `\(C\)` such that the element `\(c_{ij}\)` records the number of times that words `\(i\)` and `\(j\)` co-occur in a given symmetric window of size `\(k\)`
 	- `\(k=41\)` in the experiment
 	
 - **Idea: Words with similar meanings will occur with similar neighbours**
